@@ -1,0 +1,47 @@
+# TestRpackage: an R package for calculating mean and variance
+
+## Requirements
+* R (>= 4.2.0)
+
+## Installation
+### From github
+To install the package from github first you need to install the package “devtools” using the following command:
+
+    install.packages("devtools", dep=T)
+
+Finally, install “TestRpackage” by the following command:
+
+    devtools::install_github("tofazzalh/TestRpackage", dep = T)
+
+Start analysis by loading the package with the following command:
+
+    library("TestRpackage")
+
+## Calculation mean and variance
+
+#### Description
+This function calculates mean and variance for a set of observation.
+
+#### Usage
+    
+    sample_mean_var(sample_data, output_folder))
+    
+#### Arguments
+
+`sample_data` A sample set of observations
+
+`output_folder`	Name of the output folder
+
+#### Value
+Calculate Mean and variance for the sample observation in *output_folder*
+
+#### Example
+    
+    #Loading a example data
+    sample_data<-data(example_data)
+    sample_data<-example_data
+
+    #Calculating mean and variance and the result will be generated
+    #to output_folder
+    output_folder<-tempdir()
+    sample_mean_var(example_data, output_folder)

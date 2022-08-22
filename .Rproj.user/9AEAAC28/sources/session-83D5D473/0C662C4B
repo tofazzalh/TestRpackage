@@ -1,0 +1,26 @@
+{
+    "id": "0C662C4B",
+    "path": "~/TestRpackage/man/example_data.Rd",
+    "project_path": "man/example_data.Rd",
+    "type": "r_doc",
+    "hash": "23376648",
+    "contents": "",
+    "dirty": false,
+    "created": 1661158424857.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "20,22",
+        "scrollLine": "4"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1661160213,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1661160213937,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,27 @@
+\name{example_data}
+\alias{example_data}
+\docType{data}
+\title{
+This is a set of observation
+}
+\description{
+This is an example data.
+}
+\usage{data("example_data")}
+\format{
+  The format is list of several observations.
+ }
+\details{
+This is a set of 11 observations.
+}
+\source{
+An example data.
+}
+\references{
+R package TestRpackage
+}
+\examples{
+data(example_data)
+## maybe str(example_data) ; plot(example_data) ...
+}
+\keyword{datasets}
